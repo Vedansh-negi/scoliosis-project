@@ -1,0 +1,21 @@
+{
+  "dataset_name": "Scoliosis Multimodal Dataset",
+  "total_samples": 6000,
+  "image_resolution": "224x224",
+  "modalities": ["image", "text"],
+  "classes": {
+    "0": "mild",
+    "1": "moderate",
+    "2": "severe"
+  },
+  "splits": {
+    "train": 4200,
+    "validation": 900,
+    "test": 900
+  },
+  "image_directory": "dataset_final",
+  "metadata_file": "dataset_metadata.csv",
+  "image_model": "ResNet50",
+  "text_model": "BERT",
+  "fusion_strategy": "late_fusion"
+}
