@@ -1,0 +1,6 @@
+train: scoliosis yolov5/train/images
+val: scoliosis yolov5/valid/images
+test: scoliosis yolov5/test/images
+
+nc: 3
+names: ['Vertebra', 'scoliosis spine', 'normal spine']
