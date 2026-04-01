@@ -1,0 +1,5 @@
+bert_scoliosis_model/
+bert_model.zip
+*.npy
+raw_datasets/
+processed_dataset/
